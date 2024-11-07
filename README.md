@@ -1,19 +1,19 @@
 # FTP-Server-Linux
 
 ## Overview
-This project involves setting up an FTP server on Kali Linux using `vsftpd` (Very Secure FTP Daemon). The server is configured to provide shared access to a folder where files can be read and written without the need for user login credentials. The server can be accessed through a web browser on the local network using IPv4, and it automatically erases the shared folder's contents after FTP access. The project includes a ZSH script to automate the entire setup and management of the `vsftpd` service.
+This project involves setting up an FTP server on Kali Linux using `vsftpd` (Very Secure FTP Daemon). The server is configured to provide shared access to a folder where files can be read and written without the need for user login credentials. The server can be accessed through a web browser on the local network using IPv4, and it automatically erases the shared folder's contents after FTP access. The project includes a Bash script to automate the entire setup and management of the `vsftpd` service.
 
 ## Key Features
 - **Anonymous Access**: No user login required to access the shared folder.
 - **Read/Write Permissions**: Allows users to read from and write to the shared folder.
-- **Automated Setup**: ZSH script to install, configure, and manage the FTP server.
+- **Automated Setup**: Bash script to install, configure, and manage the FTP server.
 - **Web Access**: Accessible via a web browser over the local network.
 - **Data Clearance**: Automatically erases the shared folder contents after each access.
 
 ## Built With
 - **Operating System**: Kali Linux
 - **FTP Server**: vsftpd (Very Secure FTP Daemon)
-- **Script Language**: ZSH
+- **Script Language**: Bash
 
 ## Requirements
 - **Kali Linux**: Ensure Kali Linux is installed on the system.
