@@ -25,9 +25,9 @@ This project involves setting up an FTP server on Kali Linux using `vsftpd` (Ver
    git clone https://github.com/yourusername/ftp-server-setup.git
    cd ftp-server-setup
    ```
-2. Run the ZSH script to set up the FTP server:
+2. Run the bash script to set up the FTP server:
 ```bash
-./setup_ftp_server.zsh
+./ftp_server.sh
 ```
 3. The script will install vsftpd, configure the necessary settings, and create the shared folder.
 
